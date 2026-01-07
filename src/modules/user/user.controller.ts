@@ -1,5 +1,5 @@
 import { RequestHandler } from "express";
-import { prisma } from "../lib/prisma";
+import { prisma } from "../../lib/prisma";
 
 const createUser: RequestHandler = async (req, res) => {
     try {
