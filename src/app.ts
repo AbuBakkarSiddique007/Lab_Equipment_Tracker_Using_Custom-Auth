@@ -13,7 +13,7 @@ app.use("/api/v1", routes)
 
 
 app.get("/", async (req, res) => {
-    res.status(200).send("Server Is Running!");
+    res.status(200).send("Lab Equipment Tracker Server Is Running!");
 })
 
 export default app;
